@@ -13,7 +13,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*": "prettier --config .prettierrc --cache --write --ignore-unknown"
+    "**/*": "prettier --config .prettierrc --cache --write"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
