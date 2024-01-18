@@ -5,3 +5,6 @@ yarn.lock
 
 # Ignore md files
 *.md
+
+# Ignore specific config file because prettier messes it up
+/src/lib/components/ui/.eslintrc.cjs
