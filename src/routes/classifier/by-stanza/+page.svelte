@@ -258,8 +258,7 @@
   form={data.form}
   schema={classifierByVerseFormSchema}
   let:config
-  method="POST"
-  action="/classifier/by-verse"
+  method="GET"
   class="mt-4 flex gap-1 xl:justify-center"
 >
   <Form.Field {config} name="syllables">

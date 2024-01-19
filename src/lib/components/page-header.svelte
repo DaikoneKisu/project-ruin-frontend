@@ -64,7 +64,7 @@
       </li>
     </ul>
   </nav>
-  <div class="flex">
+  <div class="flex flex-col items-center gap-3">
     <img class="h-12 w-12" src={bookOpenIcon} alt="" />
     <img class="absolute -translate-x-1.5 translate-y-1.5" src={brushIcon} alt="" />
     <ModeToggleButton />

@@ -5,6 +5,3 @@ export type appRoutes =
   | '/classifier/by-stanza'
   | '/classifier/by-verse'
   | '/upload-poem'
-  | '/upload-poem/author-data'
-  | '/upload-poem/poem-data'
-  | '/upload-poem/poem-text'
